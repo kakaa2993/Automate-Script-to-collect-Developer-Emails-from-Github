@@ -1,3 +1,6 @@
 https://github.com/kakaa2993/Automate-Script-to-collect-Developer-Emails-from-Github.git
 https://github.com/koalaman/shellcheck.git
 https://github.com/bregman-arie/devops-exercises.git
+https://github.com/JosefZIla/bash2048.git
+https://github.com/erick-marin/Google-ITAutomation-Python.git
+https://github.com/elmoallistair/google-it-automation.git
