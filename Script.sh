@@ -14,7 +14,7 @@ collect_logs(){
 		git clone $line
 		cd "$repo_path"
 		git log >> "${path}/logs.txt"
-		#git log > logs.txt
+		cd "$path"
 	done < test.txt
 #GitHub_links.txt
 
