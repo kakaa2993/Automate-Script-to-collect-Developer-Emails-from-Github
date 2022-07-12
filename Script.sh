@@ -4,7 +4,9 @@
 
 path=$(pwd)
 #while read line ; do echo ${line##*/} ; done < GitHub_links.txt
-touch logs.txt authors.txt
+> logs.txt
+> authors.txt
+cat logs.txt
 collect_logs(){
 	while read line
 	do
@@ -26,6 +28,8 @@ collect_logs(){
 			rm -r "${repo_path}"
 
 			# filter the logs
+		else
+			continue
 		fi
 	done < test.txt
 #GitHub_links.txt
