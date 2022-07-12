@@ -1,7 +1,9 @@
 #!/bin/bash
 
+
 # This script will collect the contributers names and return a list of all the contributers tha contribute to that project in GitHub
 
+echo "====================== The script is start ======================"
 path=$(pwd)
 #while read line ; do echo ${line##*/} ; done < GitHub_links.txt
 > logs.txt
@@ -35,3 +37,4 @@ collect_logs(){
 
 collect_logs
 
+echo "====================== The script is finished ======================"
