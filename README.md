@@ -14,9 +14,16 @@ You should give the github repository links you want to collect the authors name
 
 ## Second:
 
-Run the script that named Script.sh and he will collect these emails for you .
+Run the script that named Script.sh , he will collect these emails for you .
 
 
 ## Third:
 
-Now, you can get your emails in the file named authors.txt
+Now, you can get your emails in the file named authors.txt .
+
+
+
+
+### Finally:
+
+If you like the script , you can give me a star.
