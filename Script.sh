@@ -26,7 +26,7 @@ collect_logs(){
 			grep "Author" logs.txt >> authors.txt
 
 			echo "${repo_path}"
-			rm -r ${repo_path}"
+			rm -rf ${repo_path}"
 
 			# filter the logs
 		else
