@@ -1,1 +1,0 @@
-# Automate-Script-to-collect-Developer-Emails-from-Github
