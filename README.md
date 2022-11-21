@@ -19,7 +19,7 @@ Run the script that named ``Script.sh`` , he will collect these emails for you .
 
 ### Finally:
 
-Now, you can get your emails in the file named authors.txt .
+Now, you can get your emails in the file named ``authors.txt`` .
 
 
 
