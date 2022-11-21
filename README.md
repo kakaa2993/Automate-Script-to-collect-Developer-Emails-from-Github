@@ -14,7 +14,7 @@ You should give <strong>the github repository links</strong> that you want to co
 
 ### Second:
 
-Run the script that named Script.sh , he will collect these emails for you .
+Run the script that named ``Script.sh`` , he will collect these emails for you .
 
 
 ### Third:
