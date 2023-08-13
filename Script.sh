@@ -1,7 +1,5 @@
 #!/bin/bash
-
-
-# This script will collect the contributers names and return a list of all the contributers tha contribute to that project in GitHub
+# This script will collect the contributors' names and return a list of all the contributors that contribute to that project on GitHub
 
 echo "====================== The script is start ======================"
 path=$(pwd)
@@ -12,14 +10,14 @@ collect_logs(){
 	while read line
 	do
 		if [[ -n $line ]]; then
-			# get the directory of the github repository
+			# Get the directory of the GitHub repository
 			link="${line##*/}"
 			repo_path="${link%.*}"
 
-			#download the repository
+			# Download the repository
 			git clone $line
 
-			# change the directory to the repository and get the logs of that repository
+			# Change the directory to the repository and get the logs of that repository
 			cd "${repo_path}"
 			git log >> "${path}/logs.txt"
 			cd "${path}"
@@ -28,7 +26,7 @@ collect_logs(){
 			echo "${repo_path}"
 			rm -rf ${repo_path}"
 
-			# filter the logs
+			# Filter the logs
 		else
 			continue
 		fi
