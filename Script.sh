@@ -17,14 +17,14 @@ collect_logs(){
 			# Download the repository
 			git clone $line
 
-			# Change the directory to the repository and get the logs of that repository
+			# Change the directory to the repository path and get the logs of that repository
 			cd "${repo_path}"
 			git log >> "${path}/logs.txt"
 			cd "${path}"
 			grep "Author" logs.txt >> authors.txt
 
 			echo "${repo_path}"
-			rm -rf ${repo_path}"
+			rm -rf "${repo_path}"
 
 			# Filter the logs
 		else
