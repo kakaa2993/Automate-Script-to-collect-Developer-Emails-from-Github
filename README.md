@@ -11,7 +11,6 @@
 This script collects emails and the authors for a GitHub repository you give to it.
 
 
-
 ## How does This Script work ?📃
 
 1. You should give <strong>the GitHub repository links</strong> that you want to collect the authors' names and their emails to the script by writing the repository in the ``GitHub_links.txt`` file.
